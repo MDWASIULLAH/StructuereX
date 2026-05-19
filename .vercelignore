@@ -1,0 +1,17 @@
+/frontend/.next/
+/frontend/node_modules/
+/frontend/dist/
+/frontend/src/
+/frontend/package-lock.json
+/frontend/next-env.d.ts
+/frontend/postcss.config.js
+/frontend/tailwind.config.ts
+/frontend/tsconfig.json
+/StructureX/.git*/
+/StructureX/**/__pycache__/
+/StructureX/**/*.pyc
+/StructureX/*stderr*.txt
+/StructureX/*stdout*.txt
+/StructureX/*error*.txt
+/StructureX/*err*.txt
+/StructureX/*out*.txt

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="StructureX Google authentication callback">
+    <title>StructureX | Completing Sign In</title>
+    <link rel="icon" href="/static/favicon.svg" type="image/svg+xml">
+    <link rel="shortcut icon" href="/static/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/static/favicon.svg">
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="/static/auth.css?v=28">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body class="legal-body auth-callback-body">
+    <main class="auth-loading-shell">
+        <article class="auth-loading-panel">
+            <div class="auth-logo-loader" aria-hidden="true">
+                <span class="auth-logo-orbit"></span>
+                <span class="auth-logo-scan"></span>
+                <img src="/static/structurex-logo.svg" alt="">
+            </div>
+            <div class="legal-kicker">StructureX Auth</div>
+            <h1>Completing sign in</h1>
+            <p id="auth-callback-status">Connecting your Google account...</p>
+        </article>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2" defer></script>
+    <script src="/static/auth.js?v=31" defer></script>
+</body>
+</html>
